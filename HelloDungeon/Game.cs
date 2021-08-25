@@ -42,6 +42,7 @@ namespace HelloDungeon
             {
                 //...display text to let the player know that they survived the first room
                 Console.WriteLine("You decide to follow your gut and decline. You move on to the next area.");
+                Console.ReadKey();
             }
         }
 
